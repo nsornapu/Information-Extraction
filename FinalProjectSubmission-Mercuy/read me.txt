@@ -1,0 +1,24 @@
+Imports and Dependencies:
+
+nltk
+re
+nltk.download('words')
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('maxent_ne_chunker')
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem.wordnet import WordNetLemmatizer
+from nltk.stem.porter import PorterStemmer
+from nltk.corpus import wordnet
+stop_words=set(stopwords.words("english"))
+#print(stop_words)
+import os
+from nltk.parse.stanford import StanfordDependencyParser
+
+steps to execute:
+run the python script and use the fucntion find_template(input_sentence) to find and fill the respective template.
+GetFeatures fucntion is used to extract features like hypernymns, hyponymns, meronyms and holonymns.
+tokenize_input, lemmatize_input, part_of_speech_tagging and dependecy_parsing are the respective functions as the names indicate.
