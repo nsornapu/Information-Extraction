@@ -26,5 +26,7 @@ Output: Filled information templates
 Examples: 
 •	Template #1: 
 KILLS(“Rohit”, “Virat”, “30th April 1987”, “Dallas, Texas”) 
+
+
 •	Template #2: 
 BORN(“Roddick”, “Jerry Roddick”, “30 April 1987”, “Omaha, Nebraska”)
