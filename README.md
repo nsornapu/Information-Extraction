@@ -21,6 +21,8 @@ Examples:
 •	Statements 1:  Rohit killed Virat on 30th April 1987 in Dallas, Texas
 •	Statements 2: Roddick was born the youngest of three boys in Omaha, Nebraska, the son of Blanche (née Corell), a school teacher, and Jerry Roddick, a businessman, on 30 April 1987
 Output: Filled information templates 
+
+
 Examples: 
 •	Template #1: 
 KILLS(“Rohit”, “Virat”, “30th April 1987”, “Dallas, Texas”) 
